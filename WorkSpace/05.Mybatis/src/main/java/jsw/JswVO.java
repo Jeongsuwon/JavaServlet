@@ -10,17 +10,10 @@ public class JswVO {
 	
 	private int iNum;
 	private String str;
-	public int getiNum() {
-		return iNum;
-	}
-	public void setiNum(int iNum) {
+	public JswVO(int iNum, String str) {
 		this.iNum = iNum;
-	}
-	public String getStr() {
-		return str;
-	}
-	public void setStr(String str) {
 		this.str = str;
 	}
+
 	
 }

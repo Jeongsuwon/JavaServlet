@@ -39,7 +39,7 @@
 					 list.jsw가 아닌 ab등의.jsw를 요청하면 콘솔창에 잘못된요청
 					 list.jsw가 요청되면 field를 두개 가진 dto를 ArrayList로 만들고 -> list.jsw에서는
 					 el과 jstl을 사용해서 보여준다. -->
-				<li><a href="#">게시판</a></li>
+				<li><a href="rrr.bat">mybatis</a></li>
 			</ul>
 
 

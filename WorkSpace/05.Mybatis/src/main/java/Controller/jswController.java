@@ -12,6 +12,7 @@ import javax.servlet.http.HttpServletResponse;
 
 import jsw.JswVO;
 
+
 @WebServlet("*.jsw")
 public class jswController extends HttpServlet {
 	RequestDispatcher rd;
@@ -23,15 +24,15 @@ public class jswController extends HttpServlet {
 			System.out.println("잘못된 요청");
 			rd = req.getRequestDispatcher("error/list.jsp");
 		}
-		
+	
 		ArrayList<JswVO> dto = new ArrayList<>();
 		//<><- Object를 상속받은 Class타입만 넣을 수 있음.
-		JswVO vo = new JswVO();
+//		JswVO vo = new JswVO();
 	
 		for(int i=0; i<10; i++) {
-			vo.setiNum(i);
-			vo.setStr("A"+i);
-			dto.add(vo);
+//			vo.setiNum(i);
+//			vo.setStr("A"+i);
+//			dto.add(vo);
 		}
 		
 		
