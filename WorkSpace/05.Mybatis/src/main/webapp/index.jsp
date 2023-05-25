@@ -32,7 +32,7 @@
 			</h1>
 			<ul id="gnb">
 				<li><a href="list.js">JSTL(TEST_DB)</a></li>
-				<li><a href="#">사원목록</a></li>
+				<li><a href="list.cu">사원목록</a></li>
 				<li><a href="#">고객관리</a></li>
 				<li><a href="list.jsw">내이니셜</a></li>
 				<!-- list.jsw를 요청하면 요청을 받을 수 있는 Controller를 추가한다.

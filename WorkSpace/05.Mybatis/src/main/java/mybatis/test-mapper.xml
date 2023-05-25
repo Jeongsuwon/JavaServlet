@@ -34,4 +34,5 @@
   	where CHARACTER_ID = #{id}
   	and CHARACTER_NAME = #{name}
   </select>
+
 </mapper>
